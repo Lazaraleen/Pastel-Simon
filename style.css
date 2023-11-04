@@ -33,6 +33,7 @@ body {
 
 .square:active, .active {
     filter: brightness(125%);
+    /* filter: brightness(75%); */
 }
 
 .red { background-color: #ff9cee; border: solid 5px #ff58e3;}
@@ -45,6 +46,7 @@ body {
 
 #start {
     width: 60px;
+    height: 60px;
     position: absolute;
     top: 10px;
     right: 0px;
@@ -52,7 +54,7 @@ body {
     font-family: 'Tahoma', serif;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 100%;
     color: #fff;
     background-color: #1454cc;
     padding: 5px;
